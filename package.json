@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-chat-plugin",
+  "version": "1.0.1",
+  "description": "whatsapp chat HTML plugin to start conversation on whatsapp from website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitnairtech/whatsapp-chat-plugin.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "chat",
+    "plugin",
+    "html"
+  ],
+  "author": "Rohit Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitnairtech/whatsapp-chat-plugin/issues"
+  },
+  "homepage": "https://github.com/rohitnairtech/whatsapp-chat-plugin#readme"
+}

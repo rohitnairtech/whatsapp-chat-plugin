@@ -1,8 +1,5 @@
 "use strict";
 
-
-//<div id="wa-floating-chat"></div>
-
 const createWhatsappChat = (number, message='hi') => {
 
     const url = `https://api.whatsapp.com/send?phone=${number}&text=${message}`;
@@ -39,9 +36,9 @@ const createWhatsappChat = (number, message='hi') => {
         }
     };    
 
-    const waFloatingElem = document.getElementById('wa-floating-chat');
+    const waFloatingElem = document.createElement('wa-floating-chat');
 
-    const floatHTML = `<a href="${url}" id="wa-float"><img src="./iconmonstr-whatsapp-1.svg" id="my-wa-float"/></a>`;
+    const floatHTML = `<a href="${url}" id="wa-float"><img src="https://raw.githubusercontent.com/rohitnairtech/whatsapp-chat-plugin/main/iconmonstr-whatsapp-1.svg" id="my-wa-float"/></a>`;
 
     const floatCSS = '#wa-float{position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#0C9;color:#FFF;border-radius:50px;text-align:center;box-shadow:2px 2px 3px #999}#my-wa-float{margin-top:22px}',
         head = document.head || document.getElementsByTagName('head')[0],
